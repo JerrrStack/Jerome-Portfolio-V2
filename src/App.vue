@@ -1,6 +1,6 @@
 <script>
 import { ref, onMounted } from "vue";
-// import LoadingScreen from "./components/LoadingScreen.vue";
+import LoadingScreen from "./components/LoadingScreen.vue";
 import MainPage from "./components/MainPage.vue";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 // Importing fonts globally
@@ -11,7 +11,7 @@ import '@fontsource/roboto';    // Default weight
 
 export default {
   components: {
-    // LoadingScreen,
+    LoadingScreen,
     MainPage,
   },
   setup() {
@@ -30,8 +30,8 @@ export default {
 
 <template>
   <div>
-    <!-- <LoadingScreen v-if="loading" />
-    <MainPage v-else /> -->
+    <LoadingScreen v-if="loading" />
+    <MainPage v-else />
 
     <MainPage />
   </div>
