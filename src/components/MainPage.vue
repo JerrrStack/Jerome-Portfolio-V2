@@ -2,7 +2,7 @@
   <section id="main">
     <!-- Sticky Watermark -->
     <div class="watermark">
-      Working in Progress
+      WORK IN PROGRESS
     </div>
 
     <div class="relative flex flex-col lg:flex-row h-auto lg:h-screen">
