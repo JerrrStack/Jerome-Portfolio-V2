@@ -32,7 +32,5 @@ export default {
   <div>
     <LoadingScreen v-if="loading" />
     <MainPage v-else />
-
-    <MainPage />
   </div>
 </template>
